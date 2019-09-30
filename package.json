@@ -1,0 +1,48 @@
+{
+  "name": "v-helpers",
+  "version": "0.0.1",
+  "description": "一个vue.js的工具库",
+  "main": "lib/main.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "concurrently 'npm:dev:*'",
+    "dev:src": "rollup -c -w",
+    "dev:examples": "rollup -c rollup.config.examples.js -w"
+  },
+  "keywords": [
+    "vue.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bandianjuse/v-helpers.git"
+  },
+  "author": "bandianjuse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bandianjuse/v-helpers/issues"
+  },
+  "homepage": "https://github.com/bandianjuse/v-helpers#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "concurrently": "^4.1.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-vue": "^5.2.3",
+    "rollup": "^1.21.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  }
+}
