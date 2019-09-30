@@ -1,5 +1,5 @@
 {
-  "name": "v-helpers",
+  "name": "v-utils-pkg",
   "version": "0.0.2",
   "description": "一个vue.js的工具库",
   "main": "lib/main.js",

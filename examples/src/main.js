@@ -1,8 +1,8 @@
 import App from './App.vue';
-import vHelpers from '../../lib/main';
+import vUtilsPkg from '../../lib/main';
 
 
-Vue.use(vHelpers, {
+Vue.use(vUtilsPkg, {
   expand: {
     custom: 'customValue',
   }, 

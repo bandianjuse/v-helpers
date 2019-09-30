@@ -1,4 +1,4 @@
-# v-helpers
+# v-utils-pkg
 
 > 一个vue的工具库插件，集成了lodash库、moment日期库、accounting货币库等。
 
@@ -7,13 +7,13 @@
 
 
 ```sh
-$ npm i v-helpers --save
+$ npm i v-utils-pkg --save
 ```
 
 ## 引入
 
 ```js
-import vHelpers from 'v-helpers';
+import vUtilsPkg from 'v-utils-pkg';
 
 const options = {
   name: 'myUtils', // 工具库名称，默认为 $utils
@@ -22,7 +22,7 @@ const options = {
     customFun: () => 'customFun',
   }, 
 }
-Vue.use(vHelpers, options);
+Vue.use(vUtilsPkg, options);
 ```
 
 ## 使用
